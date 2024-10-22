@@ -122,4 +122,3 @@ foreach ($orwellBooks as $book) {
     echo $book->getBookInfo() . "\n";
 }
 
-?>
