@@ -7,7 +7,6 @@ class Book
     private $publishedYear;
     private $genre;
 
-    // конструктор
     public function __construct($title, $author, $publishedYear, $genre)
     {
         $this->title = $title;
@@ -16,7 +15,6 @@ class Book
         $this->genre = $genre;
     }
 
-    // геттеры\сеттеры
     public function getTitle()
     {
         return $this->title;
@@ -102,7 +100,6 @@ class Library
 
 $library = new Library();
 
-// добавление книг
 $library->addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, "Fiction"));
 $library->addBook(new Book("1984", "George Orwell", 1949, "Dystopian"));
 $library->addBook(new Book("To Kill a Mockingbird", "Harper Lee", 1960, "Fiction"));
