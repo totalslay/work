@@ -1,0 +1,9 @@
+﻿<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>5ab296d0-cc43-40be-82c5-9b6aa5e369e5</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- "StartupFile" needs to be set in order to recognize this project as a Console Project -->
+    <StartupFile>index.php</StartupFile>
+  </PropertyGroup>
+</Project>
